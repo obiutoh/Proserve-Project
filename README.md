@@ -11,4 +11,4 @@ It is understood that the ECS would manage starting tasks on the EC2 instance ba
 •	ECR container registry
 •	ECS cluster with task and service definition
 Cluster is created using container instances (EC2 launch type, not Fargate!).
-In addition further research are ongoing to deploy this provisioned infrastructure in through git action in git hub to AWS
+In addition further research are ongoing to deploy this provisioned infrastructure through git action to AWS from git hub.

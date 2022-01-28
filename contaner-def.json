@@ -1,0 +1,23 @@
+[
+  {
+    "name": "prince-slon",
+    "image": "418539236540.dkr.ecr.eu-west-1.amazonaws.com/nginx:latest",
+    "cpu": 10,
+    "memory": 256,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 80
+      }
+    ],
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": { 
+        "awslogs-group" : "/ecs/frontends-container",
+        "awslogs-region": "eu-west-1"
+      }
+    }
+  }
+]
+
+  
